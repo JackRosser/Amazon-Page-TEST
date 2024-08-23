@@ -9,6 +9,7 @@ body::-webkit-scrollbar {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
 }
 
 /* utilities */
@@ -48,9 +49,13 @@ li a {
 /* hero */
 
 main {
-  background-color: #e9edee;
+  padding-inline: 20px;
 }
 
 .orangebar {
   background-color: #f56600;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
 }
