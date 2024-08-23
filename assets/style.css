@@ -32,6 +32,10 @@ h2 {
   font-size: 0.8em;
 }
 
+h3 {
+  display: inline-block;
+}
+
 /* utilities */
 
 .mt {
@@ -83,5 +87,11 @@ main {
 .greenbar {
   background-image: url(./images/bg-image.png);
   padding-block: 40px;
-  background-size: 96%;
+  background-size: contain;
+}
+
+/* gift */
+
+.giftbox p {
+  display: inline-block;
 }
