@@ -115,7 +115,13 @@ console.log(cars);
 */
 const justTrims = [];
 
-let save = function () {};
+let saveFirstTrims = function () {
+  for (let i = 0; i < cars.length; i++) {
+    justTrims.push(cars[i].trims[0]);
+  }
+};
+
+saveFirstTrims();
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
