@@ -38,9 +38,25 @@ h2 {
   margin-top: 20px;
 }
 
+.mt__aside {
+  margin-top: 10px;
+}
+
 .a__link {
   text-decoration: none;
   color: #0e6075;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.panel {
+  background-color: #364759;
+  text-align: center;
+  padding-block: 10px;
+}
+
+.panel a {
+  color: white;
   font-weight: bold;
   font-size: 14px;
 }
@@ -131,11 +147,59 @@ main {
 }
 
 .i1 {
+  position: absolute;
+  left: -70px;
+}
+.i2 {
+  position: absolute;
+  left: -120px;
+}
+.i3 {
+  position: absolute;
+  left: -70px;
+}
+.i4 {
+  position: absolute;
+  left: -70px;
 }
 
-/* visor */
+/* sections */
 
-.visor {
-  background-color: red;
-  height: 45vh;
+section {
+  height: 53vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+.section__image {
+  width: 100%;
+  display: inline-block;
+}
+
+aside {
+  text-align: center;
+  vertical-align: center;
+}
+
+h3 {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+aside p {
+  display: inline-block;
+}
+
+/* footer */
+
+footer {
+  background: #222f3f;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer__img {
+  display: inline-block;
+  width: 150px;
 }
