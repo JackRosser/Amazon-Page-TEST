@@ -26,23 +26,30 @@ let order = function (array) {
   return array.sort();
 };
 
-order(pets);
-console.log(`Ecco l'array in ordine alfabetico: ${pets}`);
+// order(pets);
+console.log(`Ecco l'array in ordine alfabetico: ${order(pets)}`);
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
 let reverse = function (array) {
-  return array.reverse();
+  return array.reverse(); // reverse(pets);
 };
 
-reverse(pets);
-console.log(`Ecco l'array in ordine invertito: ${pets}`);
+console.log(`Ecco l'array in ordine invertito: ${reverse(pets)}`);
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+
+let change = function (array) {
+  for (let i = 0; i < array.length; i++) {}
+  array.push(array[0]);
+  array.splice(0, 1);
+  return array;
+};
+console.log(change(pets), "prova");
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
