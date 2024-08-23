@@ -32,14 +32,17 @@ h2 {
   font-size: 0.8em;
 }
 
-h3 {
-  display: inline-block;
-}
-
 /* utilities */
 
 .mt {
   margin-top: 20px;
+}
+
+.a__link {
+  text-decoration: none;
+  color: #0e6075;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 /* menu di navigazione */
@@ -92,6 +95,47 @@ main {
 
 /* gift */
 
+.giftbox {
+  background: white;
+  padding: 20px 10px 10px;
+}
+
 .giftbox p {
   display: inline-block;
+}
+
+.giftbox h3 {
+  display: inline-block;
+  margin: 0 20px 0 10px;
+}
+
+.imagesbox {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.image__container {
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  width: 240px;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  margin-inline: 10px;
+}
+
+.image {
+  border-radius: 20px;
+  height: 100%;
+}
+
+.i1 {
+}
+
+/* visor */
+
+.visor {
+  background-color: red;
+  height: 45vh;
 }
