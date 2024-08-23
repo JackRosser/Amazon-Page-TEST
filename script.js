@@ -101,7 +101,7 @@ let addlicense = function () {
 
 let destroy = function () {
   for (let i = 0; i < cars.length; i++) {
-    delete cars[i].trims;
+    cars[i].trims.pop();
   }
 };
 
@@ -115,9 +115,9 @@ console.log(cars);
 */
 const justTrims = [];
 
-for (let i = 0; i < cars.length; i++) {
-  console.log(cars[i], "esercizio 7");
-}
+// for (let i = 0; i < cars.length; i++) {
+//   console.log(cars[i], "esercizio 7");
+// }
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
