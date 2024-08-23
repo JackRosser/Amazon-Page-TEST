@@ -86,10 +86,38 @@ console.log(cars);
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+let kia = {
+  brand: "Kia",
+  model: "Picanto",
+  color: "red",
+  trims: ["ambara", "ba", "cicci"]
+};
+
+let addlicense = function () {
+  for (let i = 0; i < cars.length; i++) {
+    cars[i].LicensePlate = 12345;
+  }
+};
+
+let destroy = function () {
+  for (let i = 0; i < cars.length; i++) {
+    delete cars[i].trims;
+  }
+};
+
+cars.push(kia);
+addlicense();
+destroy();
+console.log(cars);
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = [];
+
+for (let i = 0; i < cars.length; i++) {
+  console.log(cars[i], "esercizio 7");
+}
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
