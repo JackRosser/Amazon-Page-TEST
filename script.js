@@ -33,6 +33,13 @@ console.log(`Ecco l'array in ordine alfabetico: ${pets}`);
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
+let reverse = function (array) {
+  return array.reverse();
+};
+
+reverse(pets);
+console.log(`Ecco l'array in ordine invertito: ${pets}`);
+
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
