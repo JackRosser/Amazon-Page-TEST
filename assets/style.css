@@ -10,6 +10,7 @@ body::-webkit-scrollbar {
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #e9edee;
+  max-width: 1200px;
 }
 
 p {
