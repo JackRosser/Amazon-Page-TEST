@@ -155,3 +155,118 @@ while (numericArray[result] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+let positions = [];
+
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (charactersArray[i]) {
+    case "a":
+      positions.push(1);
+      break;
+
+    case "b":
+      positions.push(2);
+      break;
+
+    case "c":
+      positions.push(3);
+      break;
+
+    case "d":
+      positions.push(4);
+      break;
+
+    case "e":
+      positions.push(5);
+      break;
+
+    case "f":
+      positions.push(6);
+      break;
+
+    case "g":
+      positions.push(7);
+      break;
+
+    case "h":
+      positions.push(8);
+      break;
+
+    case "i":
+      positions.push(9);
+      break;
+
+    case "j":
+      positions.push(10);
+      break;
+
+    case "k":
+      positions.push(11);
+      break;
+
+    case "l":
+      positions.push(12);
+      break;
+
+    case "m":
+      positions.push(13);
+      break;
+
+    case "n":
+      positions.push(14);
+      break;
+
+    case "o":
+      positions.push(15);
+      break;
+
+    case "p":
+      positions.push(16);
+      break;
+
+    case "q":
+      positions.push(17);
+      break;
+
+    case "r":
+      positions.push(18);
+      break;
+
+    case "s":
+      positions.push(19);
+      break;
+
+    case "t":
+      positions.push(20);
+      break;
+
+    case "u":
+      positions.push(21);
+      break;
+
+    case "v":
+      positions.push(22);
+      break;
+
+    case "w":
+      positions.push(23);
+      break;
+
+    case "x":
+      positions.push(24);
+      break;
+
+    case "y":
+      positions.push(25);
+      break;
+
+    case "z":
+      positions.push(26);
+      break;
+
+    default:
+      console.log("Carattere non trovato");
+  }
+}
+
+console.log(positions);
